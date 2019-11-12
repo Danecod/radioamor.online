@@ -1,0 +1,120 @@
+
+/* .contenedor-video{
+
+    margin-top: 10px;
+
+} */
+
+.cabezera{
+    background: url(../img/bg-1.jpg);
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 80vh;
+    margin-top: 70px;
+    
+}
+
+.reloj{
+    margin-top: 50px;
+    
+}
+
+.fecha{
+    background: #000428;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #004e92, #000428);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #004e92, #000428); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+    color: white;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+    /* border: 2px solid red; */
+    border-radius: 5px;
+}
+
+.hora{
+    background: rgba(0, 0, 0, 0.5);
+    border-left: 2px solid blue;
+    border-right: 2px solid blue;
+    border-bottom: 2px solid blue;
+    color: white;
+    font-size: 2rem;
+    display: flex;
+    flex-flow: row;
+    justify-content: center;
+
+}
+
+
+
+
+.color{
+    color: pink;
+}
+
+.video{
+    height: 500px;
+    width: auto;
+    border: 2px solid yellowgreen;
+   
+}
+
+.contenedor-mapa{
+    width : 1320px;
+    height : 500px;
+    border: 5px solid black;
+}
+
+.mapa{
+    width : 1290px;
+    height : 490px;
+}
+
+
+
+
+@media screen and (max-width:600px){
+    .video{
+        height: 180px;
+        width: auto;
+        border: 2px solid yellowgreen;
+        
+       
+    }
+
+    /* .contenedor-video{
+        margin-top: 80px;
+    } */
+
+    .contenedor-mapa{
+        width : auto;
+        height : auto;
+        border: 5px solid black;
+    }
+    
+    .mapa{
+        width : auto;
+        height : auto;
+    }
+
+    .cabezera{
+        background: url(../img/bg-1.jpg);
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+        height: 100vh;
+        margin-top: 70px;
+        
+    }
+
+}
+
+/* @media screen and (max-width:800px){
+    .video{
+        height: 300px;
+        width: auto;
+        border: 2px solid yellowgreen;
+    }
+
+} */
